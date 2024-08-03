@@ -14,10 +14,58 @@ html, body{
 .left{
     width: 40%;
     height: 100%;
+    padding: 10% 5%;
     background-color: #8BB6DF;
+    color: #fff;
+    font-family: "Mukta Mahee", sans-serif;
+    position: relative;
 }
 .left img{
     width: 40vw;
     object-fit: cover;
     object-position: center;
+    padding: 1vw;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(+30%, -10%);
+}
+.left h1{
+    font-size: 3vw;
+    font-family: "Mukta Mahee", sans-serif;
+    color: #fff;
+    margin-bottom: 0;
+}
+.left h1 span{
+    font-weight: 300;
+}
+.left p{
+    margin-top: 1vh;
+    padding-right: 3vw;
+    line-height: 1.5;
+}
+.left h3{
+    font-size: 2vw;
+}
+.left button{
+    margin-top: 2vh;
+    padding: .5vw 1.5vw;
+    border: none;
+    border-radius: 2px;
+}
+.lfooter{
+    position: absolute;
+    width: 90%;
+    left: 0;
+    bottom: 5%;
+    padding: 10px;
+    background-color: #fff;
+    color:#000;
+}
+.lfooter h2{
+    color:#8BB6DF;
+    font-weight: 400;
+}
+.lfooter p{
+    font-size: 15px;
 }
