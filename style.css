@@ -54,7 +54,7 @@ html, body{
     border: none;
     border-radius: 2px;
 }
-.lfooter{
+#lfooter{
     position: absolute;
     width: 90%;
     left: 0;
@@ -63,11 +63,11 @@ html, body{
     background-color: #fff;
     color:#000;
 }
-.lfooter h2{
+#lfooter h2{
     color:#8BB6DF;
     font-weight: 400;
 }
-.lfooter p{
+#lfooter p{
     font-size: 15px;
 }
 
@@ -101,22 +101,23 @@ html, body{
     font-size: 1.5vw;
     font-weight: 1000;
 }
-.btns{
+#btns{
     display: flex;
     gap: 20px;
 }
-.btns button{
+#btns button{
     margin-top: 2vh;
     padding: .5vw 1.5vw;
     border: none;
     border-radius: 2px;
 }
-.btns button:nth-child(1){
+#btns button:nth-child(1){
     border: 1px solid #8BB6DF ;
+    color: #8BB6DF;
     background-color: transparent;
     border-radius: 5px;
 }
-.btns button:nth-child(2){
+#btns button:nth-child(2){
     background-color: #8BB6DF;
     border-radius: 10px;
     color: #fff;
@@ -126,12 +127,12 @@ html, body{
     font-size: 1vw;
     font-weight: 900;
 }
-.images{
+#images{
     margin-top: 2vh;
     display: flex;
     gap: 10px;
 }
-.images img {
+#images img {
     width: 100px;
     height: 100px;
     border: 3px solid #8BB6DF;
